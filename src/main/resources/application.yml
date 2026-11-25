@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+jwt:
+  secret: ${JWT_SECRET}
+
+messaging:
+  sms:
+    provider: ${SMS_PROVIDER:log}
+
+aws:
+  region: ${AWS_REGION:us-east-1}
+
+appDescription: "Pragma Powerup - Messaging"
+appVersion: "1.0.0"
